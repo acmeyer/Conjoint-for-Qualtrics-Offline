@@ -12,11 +12,17 @@ Copy all the code in the code/qualtrics_look_and_feel.html file. Paste the copie
 
 Copy all the code found in the code/qualtrics_tables.html file. In each Qualtrics question you want the conjoint table to appear, paste the copied code in the HTML view portion of the question's text box. After pasting the code, make sure to replace the round title text with the correct round number.
 
-Next, copy all the code found in the code/qualtrics_random_tables.js file. Add a javascript block to the same question where you added the table html code. Within the ~Qualtrics.SurveyEngine.addOnload(function() {}~ block, paste the copied code. After pasting the code, make sure to change the attribute_array and values_array variables to use your specific attributes and values. Also, be sure to update the round number at the bottom of the code.
+Next, copy all the code found in the code/qualtrics_random_tables.js file. Add a javascript block to the same question where you added the table html code. Within the Qualtrics.SurveyEngine.addOnload(function() {} block, paste the copied code. After pasting the code, make sure to change the attribute_array and values_array variables to use your specific attributes and values. Also, be sure to update the round number at the bottom of the code.
 
 ### Setup Capturing Conjoint Data
 
 TODO: instructions for how to capture data using the embedded data in Qualtrics
+
+## Known Limits/Possible Future Improvements
+
+* Randomization is currently only done with equal weights
+* Limited to only two choices
+* Customize attributes, values and labels more easily
 
 ## Contributing
 
@@ -28,4 +34,9 @@ TODO: instructions for how to capture data using the embedded data in Qualtrics
 
 ## License
 
-Released under the MIT License. See LICENSE (LICENSE) or http://opensource.org/licenses/MIT for more information.
+Released under the MIT License. See [LICENSE](LICENSE) or http://opensource.org/licenses/MIT for more information.
+
+## Credits
+
+[Leah Rosenzweig](http://leahrrosenzweig.com)
+[Alex Meyer](http://alexcmeyer.com)
