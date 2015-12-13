@@ -38,5 +38,5 @@ Released under the MIT License. See [LICENSE](LICENSE) or http://opensource.org/
 
 ## Credits
 
-[Leah Rosenzweig](http://leahrrosenzweig.com)
-[Alex Meyer](http://alexcmeyer.com)
+* [Leah Rosenzweig](http://www.leahrrosenzweig.com)
+* [Alex Meyer](https://twitter.com/alexcmeyer)
