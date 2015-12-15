@@ -1,14 +1,11 @@
-// Replace values of array with attribute names
-var attribute_array = ['Religion', 'Tribe', 'Party', 'Actions-public', 'Actions-private', 'Promises'];
-
-// Replace values of array with attribute values
-var values_array = [['Christian', 'Muslim'], ['Sukuma', 'Chagga'], ['CCM', 'Opposition'], ['Gave nothing to your community', 'Gave money to your community'], ['Gave you nothing', 'Gave you money'], ['Has promises but no plan', 'Has promises and a plan']];
-
 var random_result = sessionStorage.random_result.split(',');
+
+var attribute_array = sessionStorage.attribute_array;
+var values_array = sessionStorage.values_array;
   
 function fill_table(number) {
   
-  var table_element = document.getElementById("conjoint_table");
+  var table_element = document.getElementById("conjoint_table_" + number);
   
   var label = "Rd_" + (number) + "_";
   
