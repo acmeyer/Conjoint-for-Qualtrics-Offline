@@ -1,7 +1,7 @@
 var random_result = sessionStorage.random_result.split(',');
 
-var attribute_array = sessionStorage.attribute_array;
-var values_array = sessionStorage.values_array;
+var attribute_array = sessionStorage.attribute_array.split(',');
+var values_array = sessionStorage.values_array.split(',');
   
 function fill_table(number) {
   
