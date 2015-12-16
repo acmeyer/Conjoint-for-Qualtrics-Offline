@@ -19,7 +19,7 @@ Qualtrics.SurveyEngine.addOnload(function() {
         
         if (j !== 0) {
           var random_values_array = [];
-          for (var x = 0; x < values_array.length; x++) {
+          for (var x = 0; x < values_array[random_value].length; x++) {
             random_values_array.push(x);
           }
           var random_index = shuffle(random_values_array);
