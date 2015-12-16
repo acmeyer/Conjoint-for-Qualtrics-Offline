@@ -18,20 +18,21 @@
     return array;
   }
   
-  var rounds_count = 6; // replace number here for the number of attributes you have
+  // Replace values of array with attribute names
+  var attribute_array = ['Religion', 'Tribe', 'Party', 'Actions-public', 'Actions-private', 'Promises'];
+  // Replace values of array with attribute values
+  var values_array = [['Christian', 'Muslim'], ['Sukuma', 'Chagga'], ['CCM', 'Opposition'], ['Gave nothing to your community', 'Gave money to your community'], ['Gave you nothing', 'Gave you money'], ['Has promises but no plan', 'Has promises and a plan']];
+  
+  if (attribute_array.length !== values_array.length) {
+    alert("Your attributes array and values array do not match.");
+  }
   var numbers_array = [];
-  for (var i = 0; i < rounds_count; i++) {
+  for (var i = 0; i < attribute_array.length; i++) {
     numbers_array.push(i);
   }
 
   if (!sessionStorage.random_result) {
     sessionStorage.random_result = shuffle(numbers_array);
   }
-
-  // Replace values of array with attribute names
-  var attribute_array = ['Religion', 'Tribe', 'Party', 'Actions-public', 'Actions-private', 'Promises'];
-
-  // Replace values of array with attribute values
-  var values_array = [['Christian', 'Muslim'], ['Sukuma', 'Chagga'], ['CCM', 'Opposition'], ['Gave nothing to your community', 'Gave money to your community'], ['Gave you nothing', 'Gave you money'], ['Has promises but no plan', 'Has promises and a plan']];
 
 </script>

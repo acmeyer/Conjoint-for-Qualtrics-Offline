@@ -18,7 +18,11 @@ Qualtrics.SurveyEngine.addOnload(function() {
         var random_value = random_result[i];
         
         if (j !== 0) {
-          var random_index = shuffle([0, 1]);
+          var random_values_array = [];
+          for (var i = 0; i < values_array.length; i++) {
+            random_values_array.push(i);
+          }
+          var random_index = shuffle(random_values_array);
           var value = values_array[random_value];
           var text = document.createTextNode(value[random_index[0]]);
           
