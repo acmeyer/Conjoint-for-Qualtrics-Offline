@@ -63,6 +63,10 @@ If you would like to rename the choices from “A” and “B” to something el
 
 Released under the MIT License. See [LICENSE](LICENSE) or http://opensource.org/licenses/MIT for more information.
 
+## Other Open Source Projects for Conjoint
+
+* If you also are looking to run conjoint experiments offline with paper/PDFs, see our other open source project [here](https://github.com/acmeyer/Conjoint-PDF-Generator-App)
+
 ## Credits
 
 * [Leah Rosenzweig](http://www.leahrrosenzweig.com)
