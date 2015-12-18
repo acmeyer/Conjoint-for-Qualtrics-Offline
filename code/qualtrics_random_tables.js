@@ -26,6 +26,7 @@ Qualtrics.SurveyEngine.addOnload(function() {
           var value = values_array[random_value];
           var text = document.createTextNode(value[random_index[0]]);
           
+          // If you want to use different choice names in your embedded data, change the values below
           if (j === 1) {
             var choice = "A";
           } else {
