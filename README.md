@@ -43,6 +43,10 @@ If you would like to rename the choices from “A” and “B” to something el
 
 ![Screenshot 4](screenshots/embed_data.png)
 
+### Testing the Code
+
+You may notice when testing on your computer, the order of attributes doesn't change or changes you make don't appear. This is because the code uses browser storage. You will need to clear this storage each time you run a test in order for it to work properly. We recommend using private browsing (aka incognito mode) when testing. This mode will automatically clear any storage, so you will get a fresh test each time you run it. If you do not want to use private browsing or do not have it available, then you will have to clear clear your browsing data after each run. You can find out how to do this in your browser's settings. This is done automatically if using the Qualtrics Offline mobile or tablet apps, so no need to make any changes if you are using these apps. 
+
 ## Known Limitations & Future Improvements
 
 * Randomization is currently only done with equal weights
