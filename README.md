@@ -70,3 +70,9 @@ Released under the MIT License. See [LICENSE](LICENSE) or http://opensource.org/
 ## Other Open Source Projects for Conjoint
 
 * If you also are looking to run conjoint experiments offline with paper/PDFs, see our other open source project [here](https://github.com/acmeyer/Conjoint-PDF-Generator-App)
+
+## Credits		
+
+* <a href="http://www.leahrrosenzweig.com" target="_blank">Leah Rosenzweig</a>		
+* <a href="http://alexcmeyer.com" target="_blank">Alex Meyer</a>		
+* For citations: “Meyer & Rosenzweig 2015”
