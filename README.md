@@ -75,4 +75,4 @@ Released under the MIT License. See [LICENSE](LICENSE) or http://opensource.org/
 
 * <a href="http://www.leahrrosenzweig.com" target="_blank">Leah Rosenzweig</a>		
 * <a href="http://alexcmeyer.com" target="_blank">Alex Meyer</a>		
-* For citations: “Meyer & Rosenzweig 2015”
+* For citations: “Meyer & Rosenzweig 2016”
