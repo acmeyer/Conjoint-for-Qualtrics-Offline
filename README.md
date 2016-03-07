@@ -2,6 +2,8 @@
 
 Produces conjoint analysis choice tasks that can be used in the Qualtrics offline application. Useful for running surveys using this application in the field without reliable internet/data access. 
 
+Read more about our offline conjoint tools <a href="http://thepoliticalmethodologist.com/2016/02/18/conjoint-analysis-tools-for-developing-country-contexts/" target="_blank">here</a>.
+
 ## How to Use
 
 In this repository you will find three code files (“qualtrics_look_and_feel.html”, “qualtrics_random_tables.js” and “qualtrics_tables.html”). All of these files are required to produce randomized tables of conjoint profile pairs in Qualtrics’ offline application.
