@@ -77,4 +77,4 @@ Released under the MIT License. See [LICENSE](LICENSE) or http://opensource.org/
 
 * <a href="http://www.leahrrosenzweig.com" target="_blank">Leah Rosenzweig</a>		
 * <a href="http://alexcmeyer.com" target="_blank">Alex Meyer</a>		
-* For citations: “Meyer & Rosenzweig 2016”
+* For citations: <a href="http://thepoliticalmethodologist.com/2016/02/18/conjoint-analysis-tools-for-developing-country-contexts/" target="_blank">“Meyer & Rosenzweig 2016”</a>
