@@ -24,7 +24,13 @@ Qualtrics.SurveyEngine.addOnload(function() {
           }
           var random_index = shuffle(random_values_array);
           var value = values_array[random_value];
+          // For text values
           var text = document.createTextNode(value[random_index[0]]);
+          // For image values uncomment the following lines
+          // var text = document.createElement('img');
+          // text.src = value[random_index[0]];
+          // text.height = '150' // height of image in pixels
+          // text.width = '150' // width of image in pixels
           
           // If you want to use different choice names in your embedded data, change the values below
           if (j === 1) {

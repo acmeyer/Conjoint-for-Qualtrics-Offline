@@ -14,7 +14,11 @@ The code in the code/qualtrics_look_and_feel.html file is the first thing you wi
 
 In line 22 you will see var attribute_array which defines the array of your conjoint attributes. You should replace the placeholder attribute names with yours. You can also delete or add attribute names depending on the number of attributes in your conjoint design. 
 
-In line 24 the var values_array defines the levels of each attribute. Again, you can customize the array to have more than two levels per attribute. For example, for the religion levels, the first array, instead of only two levels you could add another: ['Christian', 'Muslim', 'Jewish']. Just make sure that the number of level arrays matches the total number of attributes, otherwise you will receive an error message. 
+In line 25 the var values_array defines the levels of each attribute. Again, you can customize the array to have more than two levels per attribute. For example, for the religion levels, the first array, instead of only two levels you could add another: ['Christian', 'Muslim', 'Jewish']. Just make sure that the number of level arrays matches the total number of attributes, otherwise you will receive an error message. 
+
+If you want to use images instead of text for attribute values, then comment out line 25 and uncomment line 29. Replace the default urls with urls to the images you'd like to use in your survey. Be sure to also update the code/qualtrics_random_tables.js file to use images too as described below.
+
+**Note:** Images will only work with an online connection. If you want to use it offline, you'll have to store images locally and then use the path to the locally stored images instead of urls.
 
 Once you have adapted the code from the code/qualtrics_look_and_feel.html file copy it and paste the copied code into the 'Look and Feel' section of your Qualtrics survey. Click on the “Look & Feel” button on the top left when you’re editing the survey. In the pop-up window click “Advanced” and then paste the code into the Header text box. Then save.
 
@@ -25,6 +29,10 @@ Once you have adapted the code from the code/qualtrics_look_and_feel.html file c
 Copy all the code found in the code/qualtrics_tables.html file. In each Qualtrics question you want a conjoint table to appear, paste the copied code in the HTML view portion of the question's text box. After pasting the code, make sure to replace the round title text with the correct round number (or anything you you want to label the box with). Regardless of how you title the conjoint boxes, be sure to change the conjoint table number in line 4. You can also customize the labels at the top of the tables to reflect the choices you are presenting to people. Currently the choices are presented as “A” and “B” but if you would like to customize this you can easily change the code in lines 8 and 9. 
 
 ![Screenshot 2](screenshots/html_question.png)
+
+Before copying the code found in code/qualtrics_random_tables.js, if you would like to use images instead of text for attribute values, be sure to comment out line 28 and uncomment lines 30-33.
+
+**Note:** This assumes you are using either text or images for attribute values but not both. If you'd like to use both, you'll have to leave both parts uncommented and add a conditional to decide when to use text and when to use an image.
 
 Next, copy all the code found in the code/qualtrics_random_tables.js file. Add a JavaScript block to the same question where you added the table html code. Click on the gear button under the question number and then select “Add JavaScript...” For this code you can select what’s already written in the text box and delete everything. Then paste this code in.
 
