@@ -24,13 +24,24 @@ Qualtrics.SurveyEngine.addOnload(function() {
           }
           var random_index = shuffle(random_values_array);
           var value = values_array[random_value];
-          // For text values
-          var text = document.createTextNode(value[random_index[0]]);
-          // For image values uncomment the following lines
-          // var text = document.createElement('img');
-          // text.src = value[random_index[0]];
-          // text.height = '150' // height of image in pixels
-          // text.width = '150' // width of image in pixels
+          var attributeValue = value[random_index[0]];
+          var text;
+
+          // Conditional to check if value is string or url
+          // Note: this is a simple check, if your data is more 
+          // complex than use a regex.
+          // Also, if you are doing it offline, this check will NOT work
+          // you must instead write the conditional to check for a 
+          // local file, likely in the file directory of device or tmp.
+          // For example, instead of checking for 'http', you might check for 'file:'
+          if (attributeValue.indexOf('http') !== -1) {
+            text = document.createElement('img');
+            text.src = attributeValue;
+            text.height = '150' // height of image in pixels
+            text.width = '150' // width of image in pixels
+          } else {
+            text = document.createTextNode(attributeValue);
+          }
           
           // If you want to use different choice names in your embedded data, change the values below
           if (j === 1) {
@@ -39,7 +50,7 @@ Qualtrics.SurveyEngine.addOnload(function() {
             var choice = "B";
           }
           var new_label = label + choice + "_" + attribute_array[random_value];
-          Qualtrics.SurveyEngine.setEmbeddedData(new_label, value[random_index[0]]);
+          Qualtrics.SurveyEngine.setEmbeddedData(new_label, attributeValue);
         } else {
           var text = document.createElement("B");
           var bolded_text = document.createTextNode(attribute_array[random_value]);

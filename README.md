@@ -30,9 +30,7 @@ Copy all the code found in the code/qualtrics_tables.html file. In each Qualtric
 
 ![Screenshot 2](screenshots/html_question.png)
 
-Before copying the code found in code/qualtrics_random_tables.js, if you would like to use images instead of text for attribute values, be sure to comment out line 28 and uncomment lines 30-33.
-
-**Note:** This assumes you are using either text or images for attribute values but not both. If you'd like to use both, you'll have to leave both parts uncommented and add a conditional to decide when to use text and when to use an image.
+Before copying the code found in code/qualtrics_random_tables.js, if you would like to use images instead of text for attribute values, be sure to comment out line 28 and uncomment lines 30-33. If you want to use both, update the `values_array` to include both.
 
 Next, copy all the code found in the code/qualtrics_random_tables.js file. Add a JavaScript block to the same question where you added the table html code. Click on the gear button under the question number and then select “Add JavaScript...” For this code you can select what’s already written in the text box and delete everything. Then paste this code in.
 
