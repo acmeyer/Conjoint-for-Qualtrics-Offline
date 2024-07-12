@@ -2,7 +2,7 @@
 
 Produces conjoint analysis choice tasks that can be used in the Qualtrics offline application. Useful for running surveys using this application in the field without reliable internet/data access. 
 
-Read more about our offline conjoint tools <a href="http://thepoliticalmethodologist.com/2016/02/18/conjoint-analysis-tools-for-developing-country-contexts/" target="_blank">here</a>.
+Read more about our offline conjoint tools <a href="https://static1.squarespace.com/static/5410fc5ae4b0b9bdbd0cde82/t/56b164909f7266d4a9c52d59/1454466192633/Meyer_Rosenzweig_2016.pdf" target="_blank">here</a>.
 
 ## How to Use
 
@@ -83,4 +83,4 @@ Released under the MIT License. See [LICENSE](LICENSE) or http://opensource.org/
 
 * <a href="http://www.leahrrosenzweig.com" target="_blank">Leah Rosenzweig</a>		
 * <a href="http://alexcmeyer.com" target="_blank">Alex Meyer</a>		
-* For citations: <a href="http://thepoliticalmethodologist.com/2016/02/18/conjoint-analysis-tools-for-developing-country-contexts/" target="_blank">“Meyer & Rosenzweig 2016”</a>
+* For citations: <a href="https://static1.squarespace.com/static/5410fc5ae4b0b9bdbd0cde82/t/56b164909f7266d4a9c52d59/1454466192633/Meyer_Rosenzweig_2016.pdf" target="_blank">“Meyer & Rosenzweig 2016”</a>
